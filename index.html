@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <title>E-Suroy</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">E-SuRoY</h2>
+            </div>
+        </div>
+    </div>
+    <div id="header">
+        <div class="container">
+            <nav>
+                
+                <ul>
+
+
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#location">Location</a></li>
+                    <li><a href="#contacts">Contact</a></li>
+                    <li><a href="homestay.html">Home stay</a></li>
+                    <li><a href="brgy.html">Barangay</a></li>
+                    <li><a href="transpo.html">Transportation</a></li>
+                    <li><a href="spot.html">Tourist Spot</a></li>
+                    
+                    
+
+                </ul>
+            </nav>
+           
+        </div>
+    </div>
+  <div class="slideshow-container">
+  <div class="slide fade">
+    <img src="san isidro.jpeg" alt="Slide 1">
+    <div class="text"></div>
+  </div>
+
+
+
+  
+</div>
+<br>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("slide");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+</script>
+
+    
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+            
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Us</h1><br><br>
+                    <p>San Isidro, officially the Municipality of San Isidro, is a 5th class municipality in the province of Surigao del Norte, Philippines. According to the 2020 census, it has a population of 8,519 people</p>
+    
+
+                    <label for="modal-toggle-1" class="modal-button">LGU Officials of San Isidro</label>
+<input type="checkbox" id="modal-toggle-1">
+<div class="modal">
+    <div class="modal-content">
+        <label for="modal-toggle-1" class="close-button">×</label>
+        <img src="LGU of S_I.jpg" width="400">
+        <h2>LGU-San Isidro, Surigao del Norte</h2>
+    </div>
+</div>
+
+<label for="modal-toggle-2" class="modal-button">Events/Fiesta</label>
+<input type="checkbox" id="modal-toggle-2">
+<div class="modal">
+    <div class="modal-content">
+        <label for="modal-toggle-2" class="close-button">×</label>
+            <p>Tigasao</p>
+            <p>May 24-25</p><br>
+            <p>Pacifico</p>
+            <p>December 24-25</p><br>
+            <p>Del Pilar</p> 
+            <p>May 1-2</p><br>
+            <p>Buhing Kalipay</p> 
+            <p>April 25-26</p><br>
+            <p>Pelaez</p> 
+            <p>April 4-5</p><br>
+            <p>San Miguel</p> 
+            <p>June 12-13</p><br>
+            <p>Roxas</p> 
+            <p>June 26-27</p><br>
+            <p>Macapagal</p> 
+            <p>June 13-14</p><br>
+            <p>Sto.Nino</p> 
+            <p>June 10-11</p><br>
+            <p>Tambacan</p> 
+            <p>June 4-5</p><br>
+            <p>Pob. Del Carmen</p>
+            <p>May 15-16</p><br>
+            <p>Sta Paz</p>
+            <p>may 4-5</p>
+        
+        </div>
+</div>
+
+    
+
+
+<section id="location"></section>
+<div class="loc">
+            <h1 class="sub-title">Location</h1>
+    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125826.44595794026!2d126.04567060000001!3d9.759593099999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3303f9a3e578bcf9%3A0x2b6257ebdb9901e7!2sDapa%2C%20Surigao%20del%20Norte!5e0!3m2!1sen!2sph!4v1712566848346!5m2!1sen!2sph" width="800" height="390" style="border:2;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+</div>
+
+<footer>
+    <section id="contacts"></section>
+        <div class="contact-info">
+            <h3 class="sub-title">SOCIAL MEDIA & CONTACTS</h3> <br><br>
+            <p>Email: Jolz@gmail.com</p>
+            <p>Phone: 0995 8166 846</p>
+            <p>Address: Brgy. San Miguel, Dapa Surigao del Norte</p>
+<br><br>
+            <a href="https://twitter.com/SantisasDominic"><img src="twt.png" width="32"></a>
+            <a href="https://www.instagram.com/its_nicsantisas/"><img src="Ig (1).png" width="45"></a>
+            <a href="https://www.facebook.com/profile.php?id=100071123267535"><img src="fb.png" width="34"></a>
+        </div>
+<br><br>
+
+</footer>
+
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Home</button>
+
+<script>
+
+    let mybutton = document.getElementById("myBtn");
+    
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+</script>
+
+
+</body>
+</html>

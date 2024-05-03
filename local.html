@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="local.css" type="text/css">
+</head>
+<body>
+    <div id="header">
+            <div class="container">
+                <nav>
+                    
+                    <ul>
+                        <li><a href="index.html">HOME PAGE</a></li>
+                    </ul>
+                </nav>
+               
+        </div>
+    </div>
+    <div class="slideshow-container">
+        <div class="slide fade">
+          <img src="LOCALBG.png" alt="Slide 1">
+          <div class="text"></div>
+        </div>
+      
+        <div class="slide fade">
+          <img src="numberpic.png" alt="Slide 2">
+          <div class="text">Comahig Beach Resort</div>
+        </div>
+      
+      
+        <!-- Slide 3 -->
+        <div class="slide fade">
+          <img src="numberpic1.png" alt="Slide 3">
+          <div class="text">Pungkay view</div>
+        </div>
+      
+        <!-- Slide 4 -->
+        <div class="slide fade">
+          <img src="slide7.png" alt="Slide 4">
+          <div class="text">Coregidor</div>
+        </div>
+      
+        <!-- Slide 5 -->
+        <div class="slide fade">
+          <img src="Bagacay.png" alt="Slide 5">
+          <div class="text">Bagacay Twin Falls</div>
+        </div>
+      
+        <!-- Slide 6 -->
+        <div class="slide fade">
+          <img src="slide1.jpg" alt="Slide 6">
+          <div class="text">San Miguel River</div>
+        </div>
+      
+       
+      
+       
+      </div>
+      <br>
+      
+      <!-- The dots/bullets/indicators -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+       
+      </div>
+      
+      <script>
+      var slideIndex = 0;
+      showSlides();
+      
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("slide");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+      }
+      
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+      
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      </script>
+
+    <section id="portfolio"></section>
+    <h1 class="sub-title">Information</h1>
+    <div id="portfolio">
+        <div class="container">
+            <div class="portfolio-list">
+                <div class="portfolio">
+                    <img src="B1.png">
+                    <div class="layer">
+                        
+                        <p>N/A</p>
+                             
+                    </div>
+                </div>
+    
+                <div class="portfolio">
+                    <img src="B2.png">
+                    <div class="layer">
+                       
+                        <p>"sari sari store"</p>
+                        <p>"Computer shop"</p>
+                        <p>"Beauty salon parlor"</p>
+                        <p>"Tailoring"</p>
+                    </div>
+                </div>
+    
+                <div class="portfolio">
+                    <img src="B3.png">
+                    <div class="layer">
+                        <p>"Motorace"</p>
+                        <p>"Yamaha"</p>
+                        <p>"Sari sari store"</p>
+                        <p>"Convinince store"</p>
+                        <p>"Home stay"</p>
+                        <p>"vulcanizing shop"</p>
+                        <p>"Animal bite center"</p>
+                        
+                    </div>
+                </div>
+                <div class="portfolio">
+                    <img src="B4.png">
+                    <div class="layer">
+                        <p>"Pharmacy"</p>
+                        <p>"Burger house"</p>
+                        <p>"Saver plus"</p>
+                        
+                    </div>
+                </div>
+                <div class="portfolio">
+                    <img src="B5.png">
+                    <div class="layer">
+                       
+                        <p>N/A</p>
+    
+                    </div>
+                </div>
+                <div class="portfolio">
+                    <img src="B6.png">
+                    <div class="layer">
+                        <p>"Sari sari store"</p>
+                        <p>"coffee shop"</p>
+                        <p>"Karinderya"</p>
+                        <p>"Tailoring"</p>
+                    </div>
+                </div>
+    
+                <div class="portfolio">
+                    <img src="B7.png">
+                    <div class="layer">
+                       
+                        <p>N/A</p>
+                    </div>
+                </div>
+    
+                <div class="portfolio">
+                    <img src="B8.png">
+                    <div class="layer">
+                        
+                        <p>N/A</p>
+                    </div>
+                </div>
+    
+    
+                <div class="portfolio">
+                    <img src="B9.png">
+                    <div class="layer">
+                       
+                        <p>N/A</p>
+                    </div>
+                </div>
+    
+                <div class="portfolio">
+                    <img src="B10.png">
+                    <div class="layer">
+                      
+                        <p>N/A</p>
+                    </div>
+                </div>
+    
+                <div class="portfolio">
+                    <img src="B11.png">
+                    <div class="layer">
+                       
+                        <p>N/A</p>
+                    </div>
+                </div>
+
+                <div class="portfolio">
+                    <img src="B12.png">
+                    <div class="layer">
+                     
+                        <p>"Sari sari store"</p> <br>
+                        <p>"Barber shop"</p> <br>
+                        <p>"Street foods"</p> <br>
+                    </div>
+                </div>
+
+                <div class="portfolio">
+                    <img src="B13.png">
+                    <div class="layer">
+                      
+                        <p>N/A</p>
+                    </div>
+                </div>
+
+                <div class="portfolio">
+                    <img src="B14.png">
+                    <div class="layer">
+                      
+                        <p>N/A</p>
+                    </div>
+                </div>
+
+                <div class="portfolio">
+                    <img src="B15.png">
+                    <div class="layer">
+                        
+                        <p>N/A</p>
+                    </div>
+                </div>
+
+                <div class="portfolio">
+                    <img src="B16.png">
+                    <div class="layer">
+                      
+                        <p>N/A</p>
+                    </div>
+                </div>
+
+                <div class="portfolio">
+                    <img src="B17.png">
+                    <div class="layer">
+                        
+                        <p>"Rice retailer"</p>
+                        <p>"Fishermen"</p>
+                    </div>
+                </div>
+
+                <div class="portfolio">
+                    <img src="B18.png">
+                    <div class="layer">
+                      
+                        <p>N/A</p>
+                    </div>
+                </div>
+
+                <div class="portfolio">
+                    <img src="B19.png">
+                    <div class="layer">
+                       
+                        <p>Corregidor</p>
+                    </div>
+                </div>
+
+                <div class="portfolio">
+                    <img src="B20.png">
+                    <div class="layer">
+                       
+                        <p>N/A</p>
+                    </div>
+                </div>
+
+                <div class="portfolio">
+                    <img src="B21.png">
+                    <div class="layer">
+                        <p>"Agrivet"</p>
+                        <p>"Homestay"</p>
+                        <p>"Sari sari store"</p>
+                        <p>"Surfing rentals"</p>
+                    </div>
+                </div>
+
+                <div class="portfolio">
+                    <img src="B22.png">
+                    <div class="layer">
+                       
+                        <p>"Sari sari store"</p>
+                    </div>
+                </div>
+
+                <div class="portfolio">
+                    <img src="B23.png">
+                    <div class="layer">
+                        
+                        <p>N/A</p>
+                    </div>
+                </div>
+
+                <div class="portfolio">
+                    <img src="B24.png">
+                    <div class="layer">
+                       
+                        <p>"Sari sari store"</p>
+                        <p>"Grilled Barbeque"</p>
+                        <p>"Fastfood"</p>
+                        
+                    </div>
+                </div>
+
+                <div class="portfolio">
+                    <img src="B25.png">
+                    <div class="layer">
+                       
+                        <p>N/A</p>
+                    </div>
+                </div>
+
+                <div class="portfolio">
+                    <img src="B26.png">
+                    <div class="layer">
+                     
+                        <p>N/A</p>
+                    </div>
+                </div>
+
+                <div class="portfolio">
+                    <img src="B27.png">
+                    <div class="layer">
+                       
+                        <p>"Sari sari store"</p>
+                        <p>"Duros company"</p>
+                        <p>"Econ company"</p>
+                        <p>"Gasoline station"</p>
+                    </div>
+                </div>
+
+                <div class="portfolio">
+                    <img src="B28.png">
+                    <div class="layer">
+                    
+                        <p>N/A</p>
+                    </div>
+                </div>
+
+                <div class="portfolio">
+                    <img src="B29.png">
+                    <div class="layer">
+                     
+                        <p>"Grocery store"</p>
+                            <p>"Karinderya"</p>
+                           
+                    </div>
+                </div>
+
+                <div class="portfolio">
+                    <img src="B30.png">
+                    <div class="layer">
+                      
+                        <p>N/A</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    </body>
+    </html>

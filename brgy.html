@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="brgy.css" type="text/css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                
+                <ul>
+                    <li><a href="index.html">HOME PAGE</a></li>
+                </ul>
+            </nav>
+           
+    </div>
+</div>
+
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <script>
+    
+        let mybutton = document.getElementById("myBtn");
+        
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    
+        
+    </script>
+    
+    <div id="header">
+        <div class="container">
+            <nav>
+                
+                <ul>
+                    <li><a href="#tigasao">Tigasao</a></li>
+                    <li><a href="#pacifico">Pacifico</a></li>
+                    <li><a href="#del pilar">Del-Pilar</a></li>
+                    <li><a href="#buhing kalipay">Buhing Kalipay</a></li>
+                    <li><a href="#pelaez">Pelaez</a></li>
+                    <li> <a href="#san miguel">San Miguel</a></li>
+                    <li><a href="#roxas">Roxas</a></li>
+                    <li><a href="#macapagal">Macapagal</a></li>
+                    <li><a href="#sto nino">Sto Nino</a></li>
+                    <li><a href="#tambacan">Tambacan</a></li>
+                    <li><a href="#pob">Pob. Del Carmen</a></li>
+                    <li><a href="#sta paz">Sta Paz</a></li>
+                    
+                    
+                </ul>
+            </nav>
+           
+        </div>
+    </div>
+   
+    
+    <div class="slideshow-container">
+        <div class="slide fade">
+          <img src="san isidro.jpeg" alt="Slide 1">
+          <div class="text"></div>
+        </div>
+      
+      <script>
+      var slideIndex = 0;
+      showSlides();
+      
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("slide");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+      }
+      
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+      
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      </script>
+
+<select name="Tigasao" id="tigasao"></select>
+<div class="tigasao">
+    <H1>MUNICIPALITY OF SAN ISIDRO <br> "TIGASAO"</H1><br><br>
+<p>Bagakay is a barangay in the municipality of Dapa, in the province of Surigao del Norte. Its population as determined by the 2020 Census was 550. This represented 1.90% of the total population of Dapa. 
+    The population of Bagakay grew from 316 in 1990 to 550 in 2020, an increase of 234 people over the course of 30 years. The latest census figures in 2020 denote a positive growth rate of 3.13%, or an increase of 75 people, from the previous population of 475 in 2015.</p>
+
+    <table class="Mayor">
+        <tr>
+        <th><h2>PUNONG BARANGAY</h2></th>
+        <th><h2>BARANGAY KAGAWAD</h2></th>
+        </tr>
+        
+        <tr>
+            <td><div id="portfolio">
+                <div class="container">
+                    <div class="portfolio-list">
+                        <div class="portfolio">
+                            <img src="mayor bagacay.png">
+                            <div class="layer">
+                                <h3> HON. DENNIS M. TORRES</h3>
+                            </div>
+                            </div>    
+                            </div>
+                        </div></td>
+            <td>ARMANDO T. PAGAY<br><br><br>
+                 GLEN D. PRAJES <br><br><br>
+                  ALMER A. ABENDAN <br><br><br>
+                  CRISTINO O. VILLAFUERTE <br><br><br>
+                  NEMESIO O. REMANDO, JR. <br><br><br>
+                  VICTOR P. CARBONILLA, JR. <br><br><br>
+                   TEODORNA P. CORDUA</td>
+        </tr>
+</table>
+<h2>LOCATION</h2>
+<td><p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1965.3532239114923!2d125.97858183106412!3d9.874976899999997!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x330401bff1e4166f%3A0x5bf799ec91266273!2sBrgy%20bagacay!5e0!3m2!1sen!2sph!4v1712901840563!5m2!1sen!2sph" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p></td>
+</div>
+<br><br><br>
+
+<select name="Pacifico" id="pacifico"></select>
+<div class="pacifico">
+    <H1>MUNICIPALITY OF SAN ISIDRO <br> "BRGY PACIFICO"</H1><br><br>
+
+<p>Barangay 1, formerly Poblacion, is a barangay in the municipality of Dapa, in the province of Surigao del Norte. Its population as determined by the 2020 Census was 3,602. This represented 12.42% of the total population of Dapa.
+    The household population of Barangay 1 in the 2015 Census was 2,610 broken down into 544 households or an average of 4.80 members per household.
+    According to the 2015 Census, the age group with the highest population in Barangay 1 is 10 to 14, with 360 individuals. Conversely, the age group with the lowest population is 80 and over, with 16 individuals.
+    <table class="Mayor">
+        <tr>
+        <th><h2>PUNONG BARANGAY</h2></th>
+        <th><h2>BARANGAY KAGAWAD</h2></th>
+        </tr>
+        
+        <tr>
+            <td><div id="portfolio">
+                <div class="container">
+                    <div class="portfolio-list">
+                        <div class="portfolio">
+                            <img src="plain.jpg">
+                            <div class="layer">
+                                <h3> N/A</h3>
+                            </div>
+                            </div>    
+                            </div>
+                        </div></td>
+            <td>ARMANDO T. PAGAY<br><br><br>
+                 GLEN D. PRAJES <br><br><br>
+                  ALMER A. ABENDAN <br><br><br>
+                  CRISTINO O. VILLAFUERTE <br><br><br>
+                  NEMESIO O. REMANDO, JR. <br><br><br>
+                  VICTOR P. CARBONILLA, JR. <br><br><br>
+                   TEODORNA P. CORDUA</td>
+        </tr>
+    </table>
+    <h2>LOCATION</h2>
+    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13311.871241706707!2d126.03489738715824!3d9.755735200000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3303f9d6d0281ea1%3A0x8b459b7045e55811!2sBarangay%20Uno%20Poblacion!5e1!3m2!1sen!2sph!4v1712906251399!5m2!1sen!2sph" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+    </div>
+    <br><br><br>
+       
+    <select name="Del Pilar" id="del pilar"></select>
+<div class="del pilar">
+    <H1>MUNICIPALITY OF SAN ISIDRO <br> "BRGY DEL PILAR"</H1><br><br>
+
+<p>Barangay 2, formerly Poblacion, is a barangay in the municipality of Dapa, in the province of Surigao del Norte. Its population as determined by the 2020 Census was 597. This represented 2.06% of the total population of Dapa.
+    The household population of Barangay 2 in the 2015 Census was 747 broken down into 156 households or an average of 4.79 members per household.
+    According to the 2015 Census, the age group with the highest population in Barangay 2 is 15 to 19, with 104 individuals. Conversely, the age group with the lowest population is 75 to 79, with 5 individuals.</p>
+
+    <table class="Mayor">
+        <tr>
+        <th><h2>PUNONG BARANGAY</h2></th>
+        <th><h2>BARANGAY KAGAWAD</h2></th>
+        </tr>
+        
+        <tr>
+            <td><div id="portfolio">
+                <div class="container">
+                    <div class="portfolio-list">
+                        <div class="portfolio">
+                            <img src="plain.jpg">
+                            <div class="layer">
+                                <h3> N/A</h3>
+                            </div>
+                            </div>    
+                            </div>
+                        </div></td>
+            <td>ARMANDO T. PAGAY<br><br><br>
+                 GLEN D. PRAJES <br><br><br>
+                  ALMER A. ABENDAN <br><br><br>
+                  CRISTINO O. VILLAFUERTE <br><br><br>
+                  NEMESIO O. REMANDO, JR. <br><br><br>
+                  VICTOR P. CARBONILLA, JR. <br><br><br>
+                   TEODORNA P. CORDUA</td>
+        </tr>
+</table>
+<h2>LOCATION</h2>
+<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3327.968370772181!2d126.05137357419298!3d9.755679090337617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3303f9cfd0e6a73d%3A0x52f527d01eeae5a5!2sBarangay%20Dos%20Poblacion!5e1!3m2!1sen!2sph!4v1712906805709!5m2!1sen!2sph" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+</div>
+<br><br><br>
+
+<select name="Buhing Kalipay" id="buhing kalipay"></select>
+<div class="buhing kalipay">
+    <H1>MUNICIPALITY OF SAN ISIDRO <br> "BRGY BUHING KALIPAY"</H1><br><br>
+
+<p>Barangay 3, formerly Poblacion, is a barangay in the municipality of Dapa, in the province of Surigao del Norte. Its population as determined by the 2020 Census was 593. This represented 2.04% of the total population of Dapa.
+    The household population of Barangay 3 in the 2015 Census was 547 broken down into 112 households or an average of 4.88 members per household. According to the 2015 Census, the age group with the highest population in Barangay 3 is 15 to 19, with 64 individuals. Conversely, the age groups with the lowest population are in the ranges Under 1, 75 to 79, and 80 and over, with 10 individuals.</p>
+
+    <table class="Mayor">
+        <tr>
+        <th><h2>PUNONG BARANGAY</h2></th>
+        <th><h2>BARANGAY KAGAWAD</h2></th>
+        </tr>
+        
+        <tr>
+            <td><div id="portfolio">
+                <div class="container">
+                    <div class="portfolio-list">
+                        <div class="portfolio">
+                            <img src="plain.jpg">
+                            <div class="layer">
+                                <h3> N/A</h3>
+                            </div>
+                            </div>    
+                            </div>
+                        </div></td>
+            <td>ARMANDO T. PAGAY<br><br><br>
+                 GLEN D. PRAJES <br><br><br>
+                  ALMER A. ABENDAN <br><br><br>
+                  CRISTINO O. VILLAFUERTE <br><br><br>
+                  NEMESIO O. REMANDO, JR. <br><br><br>
+                  VICTOR P. CARBONILLA, JR. <br><br><br>
+                   TEODORNA P. CORDUA</td>
+        </tr>
+</table>
+<h2>LOCATION</h2>
+<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13311.78077267939!2d126.05259999492715!3d9.757999690728877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3303f9038edd04d3%3A0xa7d598651fe470d1!2sBarangay%20dapa.%20Surigao.%20Del%20norte!5e1!3m2!1sen!2sph!4v1712908692180!5m2!1sen!2sph" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+</div>
+<br><br><br>
+
+<select name="Pelaez" id="pelaez"></select>
+<div class="pelaez">
+    <H1>MUNICIPALITY OF SAN ISIDRO <br> "BRGY PELAEZ"</H1><br><br>
+
+<p>Barangay 4, formerly Poblacion, is a barangay in the municipality of Dapa, in the province of Surigao del Norte. Its population as determined by the 2020 Census was 519. This represented 1.79% of the total population of Dapa.
+    The household population of Barangay 4 in the 2015 Census was 448 broken down into 100 households or an average of 4.48 members per household. According to the 2015 Census, the age group with the highest population in Barangay 4 is 10 to 14, with 69 individuals. Conversely, the age group with the lowest population is 80 and over, with 3 individuals.</p>
+
+    <table class="Mayor">
+        <tr>
+        <th><h2>PUNONG BARANGAY</h2></th>
+        <th><h2>BARANGAY KAGAWAD</h2></th>
+        </tr>
+        
+        <tr>
+            <td><div id="portfolio">
+                <div class="container">
+                    <div class="portfolio-list">
+                        <div class="portfolio">
+                            <img src="plain.jpg">
+                            <div class="layer">
+                                <h3>Renith Almaden</h3>
+                            </div>
+                            </div>    
+                            </div>
+                        </div></td>
+            <td>Kag- Joan Ranara<br><br><br>
+                Ariel Borga <br><br><br>
+                Elmer Nohara <br><br><br>
+                Camilo Iballa<br><br><br>
+                Joseph Plazarras <br><br><br>
+                Joey Escorpion<br><br><br>
+                Meyra Dela Cruz</td>
+        </tr>
+</table>
+<h2>LOCATION</h2>
+<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3327.813780005255!2d126.05006677419297!3d9.771146790322831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3303f94b7bf6b9a7%3A0x142ff32b07dbb5b7!2sbrgy%204!5e1!3m2!1sen!2sph!4v1712908915112!5m2!1sen!2sph" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+</div>
+<br><br><br>
+
+<select name="San Miguel" id="san miguel"></select>
+<div class="san miguel">
+    <H1>MUNICIPALITY OF SAN ISIDRO <br> "BRGY SAN MIGUEL"</H1><br><br>
+
+<p>Barangay 5, formerly Poblacion, is a barangay in the municipality of Dapa, in the province of Surigao del Norte. Its population as determined by the 2020 Census was 302. This represented 1.04% of the total population of Dapa.
+    The household population of Barangay 5 in the 2015 Census was 257 broken down into 61 households or an average of 4.21 members per household.According to the 2015 Census, the age group with the highest population in Barangay 5 is 10 to 14, with 31 individuals. Conversely, the age groups with the lowest population are in the ranges 70 to 74, and 75 to 79, with 1 individual.
+    <table class="Mayor">
+        <tr>
+        <th><h2>PUNONG BARANGAY</h2></th>
+        <th><h2>BARANGAY KAGAWAD</h2></th>
+        </tr>
+        
+        <tr>
+            <td><div id="portfolio">
+                <div class="container">
+                    <div class="portfolio-list">
+                        <div class="portfolio">
+                            <img src="plain.jpg">
+                            <div class="layer">
+                                <h3> N/A</h3>
+                            </div>
+                            </div>    
+                            </div>
+                        </div></td>
+            <td>ARMANDO T. PAGAY<br><br><br>
+                 GLEN D. PRAJES <br><br><br>
+                  ALMER A. ABENDAN <br><br><br>
+                  CRISTINO O. VILLAFUERTE <br><br><br>
+                  NEMESIO O. REMANDO, JR. <br><br><br>
+                  VICTOR P. CARBONILLA, JR. <br><br><br>
+                   TEODORNA P. CORDUA</td>
+        </tr>
+</table>
+<h2>LOCATION</h2>
+<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3327.9330169049786!2d126.05010527419296!3d9.759218590334246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3303f97d20a93de9%3A0x7a22b5f7b2dd261!2sBarangay%205%2C%20Dapa%2C%20Surigao%20del%20Norte!5e1!3m2!1sen!2sph!4v1712909283551!5m2!1sen!2sph" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+</div>
+<br><br><br>
+
+<select name="Roxas" id="roxas"></select>
+<div class="roxas">
+    <H1>MUNICIPALITY OF SAN ISIDRO <br> "BRGY ROXAS"</H1><br><br>
+
+<p>Roxas is a barangay in the municipality of San Isidro, in the province of Surigao del Norte. Its population as determined by the 2020 Census was 1,182. This represented 13.87% of the total population of San Isidro.
+    <table class="Mayor">
+        <tr>
+        <th><h2>PUNONG BARANGAY</h2></th>
+        <th><h2>BARANGAY KAGAWAD</h2></th>
+        </tr>
+        
+        <tr>
+            <td><div id="portfolio">
+                <div class="container">
+                    <div class="portfolio-list">
+                        <div class="portfolio">
+                            <img src="plain.jpg">
+                            <div class="layer">
+                                <h3> N/A</h3>
+                            </div>
+                            </div>    
+                            </div>
+                        </div></td>
+            <td>ARMANDO T. PAGAY<br><br><br>
+                 GLEN D. PRAJES <br><br><br>
+                  ALMER A. ABENDAN <br><br><br>
+                  CRISTINO O. VILLAFUERTE <br><br><br>
+                  NEMESIO O. REMANDO, JR. <br><br><br>
+                  VICTOR P. CARBONILLA, JR. <br><br><br>
+                   TEODORNA P. CORDUA</td>
+        </tr>
+</table>
+<h2>LOCATION</h2>
+<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3327.9330169049786!2d126.05010527419296!3d9.759218590334246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3303f94e280f9f39%3A0x58e65bb338c3ce6c!2sDapa%20Basketball%20Covered%20Court%2C%20Dapa%2C%20Surigao%20del%20Norte!5e1!3m2!1sen!2sph!4v1712911381624!5m2!1sen!2sph" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+</div>
+<br><br><br>
+
+<select name="Macapagal" id="macapagal"></select>
+<div class="macapagal">
+    <H1>MUNICIPALITY OF SAN ISIDRO <br> "BRGY MACAPAGAL"</H1><br><br>
+
+<p>Barangay 7, formerly Poblacion, is a barangay in the municipality of Dapa, in the province of Surigao del Norte. Its population as determined by the 2020 Census was 119. This represented 0.41% of the total population of Dapa.
+    The household population of Barangay 7 in the 2015 Census was 143 broken down into 40 households or an average of 3.58 members per household.According to the 2015 Census, the age group with the highest population in Barangay 7 is 25 to 29, with 17 individuals. Conversely, the age groups with the lowest population are in the ranges Under 1, 70 to 74, 75 to 79, and 80 and over, with 1 individual.
+    <table class="Mayor">
+        <tr>
+        <th><h2>PUNONG BARANGAY</h2></th>
+        <th><h2>BARANGAY KAGAWAD</h2></th>
+        </tr>
+        
+        <tr>
+            <td><div id="portfolio">
+                <div class="container">
+                    <div class="portfolio-list">
+                        <div class="portfolio">
+                            <img src="plain.jpg">
+                            <div class="layer">
+                                <h3>Rosanna L. Chua</h3>
+                            </div>
+                            </div>    
+                            </div>
+                        </div></td>
+            <td>Rose E. Quinaso<br><br><br>
+                Juliet C. Burdas <br><br><br>
+                Rotchie P. Sulapas <br><br><br>
+                Jemar V. Bislig <br><br><br>
+                Marilyn Sirunda <br><br><br>
+                Rolito Sulapas <br><br><br>
+                Shina B. Asijo</td>
+        </tr>
+</table>
+<h2>LOCATION</h2>
+<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.0081491844026!2d126.06286549678951!3d9.7516951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3303f9038edd04d3%3A0xa7d598651fe470d1!2sBarangay%20dapa.%20Surigao.%20Del%20norte!5e1!3m2!1sen!2sph!4v1712911873037!5m2!1sen!2sph" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+</div>
+<br><br><br>
+
+<select name="Sto Nino" id="sto nino"></select>
+<div class="sto nino">
+    <H1>MUNICIPALITY OF SAN ISIDRO <br> "BRGY STO NINO"</H1><br><br>
+
+<p>Barangay 8, formerly Poblacion, is a barangay in the municipality of Dapa, in the province of Surigao del Norte. Its population as determined by the 2020 Census was 211. This represented 0.73% of the total population of Dapa.
+    The household population of Barangay 8 in the 2015 Census was 216 broken down into 53 households or an average of 4.08 members per household.According to the 2015 Census, the age group with the highest population in Barangay 8 is 5 to 9, with 31 individuals. Conversely, the age group with the lowest population is 75 to 79, with 1 individual.
+    <table class="Mayor">
+        <tr>
+        <th><h2>PUNONG BARANGAY</h2></th>
+        <th><h2>BARANGAY KAGAWAD</h2></th>
+        </tr>
+        
+        <tr>
+            <td><div id="portfolio">
+                <div class="container">
+                    <div class="portfolio-list">
+                        <div class="portfolio">
+                            <img src="plain.jpg">
+                            <div class="layer">
+                                <h3> N/A</h3>
+                            </div>
+                            </div>    
+                            </div>
+                        </div></td>
+            <td>ARMANDO T. PAGAY<br><br><br>
+                 GLEN D. PRAJES <br><br><br>
+                  ALMER A. ABENDAN <br><br><br>
+                  CRISTINO O. VILLAFUERTE <br><br><br>
+                  NEMESIO O. REMANDO, JR. <br><br><br>
+                  VICTOR P. CARBONILLA, JR. <br><br><br>
+                   TEODORNA P. CORDUA</td>
+        </tr>
+</table>
+<h2>LOCATION</h2>
+<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.0081491844026!2d126.06286549678951!3d9.7516951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3303f9038edd04d3%3A0xa7d598651fe470d1!2sBarangay%20dapa.%20Surigao.%20Del%20norte!5e1!3m2!1sen!2sph!4v1712911873037!5m2!1sen!2sph" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+</div>
+<br><br><br>
+
+<select name="Pob. Del Carmen" id="pob"></select>
+<div class="pob">
+    <H1>MUNICIPALITY OF SAN ISIDRO <br> "POB. DEL CARMEN"</H1><br><br>
+
+<p>Barangay 9, formerly Poblacion, is a barangay in the municipality of Dapa, in the province of Surigao del Norte. Its population as determined by the 2020 Census was 383. This represented 1.32% of the total population of Dapa.
+    The household population of Barangay 9 in the 2015 Census was 355 broken down into 79 households or an average of 4.49 members per household.According to the 2015 Census, the age group with the highest population in Barangay 9 is 15 to 19, with 39 individuals. Conversely, the age group with the lowest population is 75 to 79, with 5 individuals.
+    <table class="Mayor">
+        <tr>
+        <th><h2>PUNONG BARANGAY</h2></th>
+        <th><h2>BARANGAY KAGAWAD</h2></th>
+        </tr>
+        
+        <tr>
+            <td><div id="portfolio">
+                <div class="container">
+                    <div class="portfolio-list">
+                        <div class="portfolio">
+                            <img src="plain.jpg">
+                            <div class="layer">
+                                <h3>Jean Tiu</h3>
+                            </div>
+                            </div>    
+                            </div>
+                        </div></td>
+            <td>Enan M. Tinio<br><br><br>
+                Jocelino E. Marcos <br><br><br>
+                Giegy<br><br><br>
+                Norie L. Agahep <br><br><br>
+                Subla S. Golloso <br><br><br>
+                Mitze M. Noguerra<br><br><br>
+                Oscar T. Caturan Jr.</td>
+        </tr>
+</table>
+<h2>LOCATION</h2>
+<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.007557314061!2d126.06502027419297!3d9.751754390341352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3303f9038edd04d3%3A0xa7d598651fe470d1!2sBarangay%20dapa.%20Surigao.%20Del%20norte!5e1!3m2!1sen!2sph!4v1712912176825!5m2!1sen!2sph" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+</div>
+<br><br><br>
+
+<select name="Tambacan" id="tambacan"></select>
+<div class="tambacan">
+    <H1>MUNICIPALITY OF SAN ISIDRO <br> "BRGY TAMBACAN"</H1><br><br>
+
+<p>Barangay 10, formerly Poblacion, is a barangay in the municipality of Dapa, in the province of Surigao del Norte. Its population as determined by the 2020 Census was 477. This represented 1.64% of the total population of Dapa.
+    The household population of Barangay 10 in the 2015 Census was 486 broken down into 94 households or an average of 5.17 members per household.According to the 2015 Census, the age groups with the highest population in Barangay 10 are in the ranges 5 to 9, and 10 to 14, with 56 individuals. Conversely, the age groups with the lowest population are in the ranges Under 1, and 75 to 79, with 8 individuals.
+    <table class="Mayor">
+        <tr>
+        <th><h2>PUNONG BARANGAY</h2></th>
+        <th><h2>BARANGAY KAGAWAD</h2></th>
+        </tr>
+        
+        <tr>
+            <td><div id="portfolio">
+                <div class="container">
+                    <div class="portfolio-list">
+                        <div class="portfolio">
+                            <img src="plain.jpg">
+                            <div class="layer">
+                                <h3> N/A</h3>
+                            </div>
+                            </div>    
+                            </div>
+                        </div></td>
+            <td>ARMANDO T. PAGAY<br><br><br>
+                 GLEN D. PRAJES <br><br><br>
+                  ALMER A. ABENDAN <br><br><br>
+                  CRISTINO O. VILLAFUERTE <br><br><br>
+                  NEMESIO O. REMANDO, JR. <br><br><br>
+                  VICTOR P. CARBONILLA, JR. <br><br><br>
+                   TEODORNA P. CORDUA</td>
+        </tr>
+</table>
+<h2>LOCATION</h2>
+<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13310.496452613907!2d126.02657582540327!3d9.790090994879936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3303f85f8625935b%3A0xcd48351eb7efa148!2s10%20(Pob.)%2C%20Dapa%2C%20Surigao%20del%20Norte!5e1!3m2!1sen!2sph!4v1712912280631!5m2!1sen!2sph" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+</div>
+<br><br><br>
+
+<select name="Sta Paz" id="sta paz"></select>
+<div class="sta paz">
+    <H1>MUNICIPALITY OF SAN ISIDRO <br> "BRGY STA PAZ"</H1><br><br>
+
+<p>Barangay 11, formerly Poblacion, is a barangay in the municipality of Dapa, in the province of Surigao del Norte. Its population as determined by the 2020 Census was 424. This represented 1.46% of the total population of Dapa.
+    The household population of Barangay 11 in the 2015 Census was 439 broken down into 97 households or an average of 4.53 members per household.According to the 2015 Census, the age group with the highest population in Barangay 11 is 10 to 14, with 52 individuals. Conversely, the age group with the lowest population is 70 to 74, with 5 individuals.
+    <table class="Mayor">
+        <tr>
+        <th><h2>PUNONG BARANGAY</h2></th>
+        <th><h2>BARANGAY KAGAWAD</h2></th>
+        </tr>
+        
+        <tr>
+            <td><div id="portfolio">
+                <div class="container">
+                    <div class="portfolio-list">
+                        <div class="portfolio">
+                            <img src="plain.jpg">
+                            <div class="layer">
+                                <h3> N/A</h3>
+                            </div>
+                            </div>    
+                            </div>
+                        </div></td>
+            <td>ARMANDO T. PAGAY<br><br><br>
+                 GLEN D. PRAJES <br><br><br>
+                  ALMER A. ABENDAN <br><br><br>
+                  CRISTINO O. VILLAFUERTE <br><br><br>
+                  NEMESIO O. REMANDO, JR. <br><br><br>
+                  VICTOR P. CARBONILLA, JR. <br><br><br>
+                   TEODORNA P. CORDUA</td>
+        </tr>
+</table>
+<h2>LOCATION</h2>
+<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.0081492808213!2d126.0650541741929!3d9.751695090341393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3303f9005fe2f66d%3A0x56f9a5b3fdc6805!2sDapa%2C%20Brgy%2011!5e1!3m2!1sen!2sph!4v1712912364661!5m2!1sen!2sph" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+</div>
+<br><br><br>
+
+
+
+<script src="indext.js"></script>
+
+
+</body>
+</html>
